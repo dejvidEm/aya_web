@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/app/components/ui/accordion";
 
 const faqs = [
