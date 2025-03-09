@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --primary: #2d4b94;
+  --primary-foreground: #ffffff;
+}
+
+.dark {
+  --primary: #4d9eff;
+  --primary-foreground: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
